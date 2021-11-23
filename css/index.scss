@@ -1,0 +1,928 @@
+@import 'variables';
+
+.scroll::-webkit-scrollbar
+{
+    display: none;
+}
+//header
+.saas_two_main_header{
+    background-color: $colorYellow;
+}
+.saas_two_main_header{
+    .s2-main-navigation{
+        .navbar-nav{
+            li a{
+                color: $colorGreen;
+            }
+        } 
+    } 
+} 
+//view lap
+.img-cel{
+    margin-top: -124px;
+}
+.saas_two_banner_section .s2-banner_area .banner_mockup{
+    right: -141px;
+}
+/*
+ .saas_two_main_header
+{
+    background: $colorYellow;
+
+    .s2-main-navigation 
+    {
+        .navbar-nav li a
+        {
+            color:$colorYellow;
+        }
+
+        .navbar-nav li a:before
+        {
+            background-color:$secondary;
+        }
+
+        .navbar-nav li a:hover
+        {
+            color: $secondary;
+        }
+    }
+}
+
+.img-cel
+{
+   max-width: 450px;
+   width: 100%;
+
+    @media(max-width: 2560px)
+    {
+        margin-top: -190px;
+    }
+
+    @media(max-width:1024px)
+    {
+        margin-top: 0px;
+    }
+    
+    @media(max-width:768px)
+    {
+        margin-top: -90px;
+    }
+
+    @media(max-width:380px)
+    {
+        margin-left: -15px;
+    }
+}
+
+body
+{
+    color: #FFF;
+}
+
+.s2-mobile_menu
+{
+    .s2-mobile_menu_close
+    {
+        color: $primary ;
+    }
+
+    .s2-mobile_menu_button
+    {
+        color: $primary;
+    }
+}
+
+.saas-classic-scrollup
+{
+    background-image: linear-gradient(45deg, $secondary 32%, $primary 100%);
+}
+
+.saas-classic
+{
+    background: $background;
+}
+
+.saas_two_banner_section 
+{
+    max-width: none;
+    z-index: 5;
+    overflow: visible;
+
+    .s2-banner_area 
+    {
+        .banner_mockup
+        {
+            top: 140px;
+            right: 0px;
+            z-index: 1;
+
+            @media(max-width:2560px)
+            {
+                top: 120px;
+                right: -60px;
+            }
+
+            @media(max-width:1440px)
+            {
+                top: 138px;
+                right: -60px;
+            }
+
+            @media(max-width: 1024px)
+            {
+                max-width: 630px;
+                top: -80px;
+                right: -40px;
+            }
+            
+            @media(max-width: 991px)
+            {
+                text-align: center;
+            }
+
+            @media(max-width: 768px)
+            {
+                text-align: center;
+                margin-top: 70px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .s2-banner_content
+    {
+        .banner_btn
+        {
+            a 
+            {
+                color: $primary;
+                border: 2px solid $primary;
+                border-radius: 5px;
+                width: 50%;
+
+                @media (max-width:480px)
+                {
+                    height: 50px;
+                    padding: 6px;
+                    width: 26%;
+                }
+
+                @media (max-width:380px)
+                {
+                    width: 33%;
+                    font-size:.8rem;
+                }
+            }
+                
+            a i
+            {
+                background: $primary;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            } 
+        }
+
+        .banner_btn a:before
+        {
+            box-shadow: 0 0 50px 30px $primary;
+            
+        }
+
+        .s2-tilte_tag
+        {
+            background: $primary; 
+            color: #FFF;
+        }
+
+        p 
+        {
+            color: #000;
+        }
+    }
+}
+
+input#input-mail
+{
+    color: #000;
+    height: 50px;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+    border: 1px solid $secondary;
+    
+    @media (max-width:991px)
+    {
+        width: 80%;
+    }
+
+    @media (max-width:768px)
+    {
+        margin-right: -43px;
+        width: 90%;
+    }
+
+    @media (max-width:480px)
+    {
+        margin-right: 60px;
+        width: 80%;
+    }
+
+    @media (max-width:380px)
+    {
+        margin-right: 73px;
+        font-size:.8rem;
+    }
+
+    @media(max-width: 320px)
+    {
+        margin-right: 38px;
+        font-size: .8rem;
+        width: 85%
+    }
+}
+
+.saas_two_banner_section::before
+{
+    @media(max-width: 2560px)
+    {
+        width: 61%;
+    }
+    
+    @media(max-width: 1440px)
+    {
+        width: 80%;
+    }
+}
+
+.saas_two_section_title
+{
+    .title_tag
+    {
+        background-color: $primary;
+        color: #FFF;
+    }
+
+    h2
+    {
+        color: #FFF;
+    }
+}
+
+.saas_two_service_section
+{
+    .service_content
+    {
+        .row 
+        {
+            &>div
+            {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .service_content_box
+    {
+        height: 100%;
+        margin-bottom: 0;
+
+        @media(max-width:991px) 
+        {
+            text-align: -webkit-center;
+            text-align: -moz-center;    
+        }
+
+        @media(max-width:768px) 
+        {
+            text-align: -webkit-center;
+            text-align: -moz-center;    
+        }
+
+        .service_icon_box
+        {
+            .lower_icon svg
+            {
+                fill: $secondary;
+            }
+            
+            .upper_icon svg
+            {
+                fill: $primary;
+            }
+        }
+    }
+
+    .service_content_box::before
+    {
+        background-image: linear-gradient(45deg, $secondary 32%, $primary 100%);        
+    }
+}
+
+.saas_two_about_section
+{
+    text-align: center;
+    color: $background;
+
+    .about_content_s2
+    {
+        padding: 2px 2px 2px 2px;
+    }
+
+    .s2-about_text_icon
+    {
+        @media(max-width:991px)
+        {
+            text-align: -webkit-center;
+            text-align: -moz-center;            
+        }
+
+        @media(max-width:768px)
+        {
+            text-align: -webkit-center;
+            text-align: -moz-center;            
+        }
+
+        h3 
+        {
+            @media (max-width: 768px)
+            {
+                font-size: 2rem;    
+            }
+        }
+
+        .s2-about_icon
+        {
+            background: none;
+
+            @media(max-width: 768px)
+            {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+.saas_two_feature_section
+{
+    @media(max-width: 991px)
+    {
+        text-align: -moz-center;
+        text-align: -webkit-center;
+    }
+
+    @media(max-width: 768px)
+    {
+        text-align: -moz-center;
+        text-align: -webkit-center;
+    }
+
+    .s2-feature_right
+    {
+        @meida(max-witdh:991px)
+        {
+            display: inline-grid;
+        }
+        .s2-feature_list
+        {
+            .s2-feature_text_box
+            {
+                h3
+                {
+                    color: #FFF;
+                }
+            }
+        }
+        .s2-feature_list:nth-child(1)
+        {
+            .s2-feature_icon
+            {
+                background: none;
+            }
+
+            .s2-feature_icon i
+            {
+                color: $secondary;
+            }
+        }
+
+        .s2-feature_list:nth-child(1)::before
+        {
+            background-color: $secondary;
+        }
+
+        .s2-feature_list:nth-child(2)
+        {
+            .s2-feature_icon
+            {
+                background: none;
+            }
+
+            .s2-feature_icon i
+            {
+                color: $secondary;
+            }
+        }
+
+        .s2-feature_list:nth-child(2)::before
+        {
+            background-color: $secondary;
+        }
+
+        .s2-feature_list:nth-child(3)
+        {
+            .s2-feature_icon
+            {
+                background: none;
+            }
+
+            .s2-feature_icon i
+            {
+                color: $secondary;
+            }
+        }
+
+        .s2-feature_list:nth-child(3)::before
+        {
+            background-color: $secondary;
+        }
+    }
+
+    .s2-feature_text
+    {
+        @media(max-width:768px)
+        {
+            padding: 0;
+        }
+
+        h2
+        {
+            color: #FFF;
+        }
+
+        p
+        {
+            color:#FFF;
+        }
+
+        .feature_tag
+        {
+            color: #FFF;
+            background-color: $primary;
+        }
+
+        .saas_btn
+        {
+            a
+            {
+                border: 2px solid $primary;
+            }
+
+            i
+            {
+                background: linear-gradient(-45deg, $secondary 32%, $primary 100%);
+            } 
+        }
+    }
+}
+
+.integration_section
+{
+    .integration_text
+    {
+        a:hover:before
+        {
+            width: 0;
+        }
+
+        a::before
+        {
+            opacity: 0;
+        }
+
+        a 
+        {
+            color: $primary;
+            border: 2px solid $primary;
+            border-radius: 50px;
+            padding: 9px 17px;
+        }
+
+        .feature_tag
+        {
+            color: #FFF;
+            background-color: $primary;
+        }
+
+        a::after
+        {
+            content: none;
+        }
+    }
+}
+
+.saas_two_footer_section
+{
+    .s2-newslatter_section
+    {
+        background-color: #000070;
+
+        .s2-newslatter-form
+        {
+            button
+            {
+                background-color: $primary;
+
+                @media(max-width: 480px)
+                {
+                    width: 120px;
+                }
+
+                @media(max-width: 380px)
+                {
+                    width: 100px;
+                    font-size: .8rem;
+                }
+
+                @media(max-width: 320px)
+                {
+                    width: 95px;
+                }
+            }
+
+            input 
+            {
+                color: #000;
+
+                @media(max-width: 480px)
+                {
+                    width: 68%;
+                    padding: 30px;
+                }
+
+                @media(max-width: 380px)
+                {
+                    width: 69%;
+                    padding: 30px;
+                    font-size: .8rem;
+                    text-align: center;
+                }
+
+                @media(max-width:320px)
+                {
+                    width: 65%;
+                    padding: 8px;
+                }
+            }
+        }
+    }
+    .s2_footer_widget
+    {
+        @media(max-width:768px)
+        {
+            text-align: center;
+        }
+
+        .s2_footer_about
+        {
+            span 
+            {
+                color: #FFF;
+            }
+        }
+       
+        .s2_footer_social
+        {
+            form 
+            {
+                input 
+                {
+                    background-color: #000070;
+                }
+
+                button 
+                {
+                    background-color: $primary;
+                }
+            }
+        }
+    }
+}
+
+.s2-copyright a
+{
+    color: $secondary;
+}
+
+.logo-equ
+{
+    max-width: 230px;
+
+    @media(max-width:768px)
+    {
+        max-width: 150px;
+    }
+}
+
+.cel-escondido
+{
+    max-width: 450px;
+    position : absolute;
+    margin-top: -103px;
+    margin-left: 100px;
+
+    @media(max-width: 1024px)
+    {
+        margin-left: -40px;
+    }
+
+    @media(max-width: 991px)
+    {
+        max-width: 50%;
+        margin-left: 20px;
+    }
+
+    @media(max-width: 768px)
+    {
+        max-width: 50%;
+        margin-left: 0px;
+    }
+
+    @media(max-width: 480px)
+    {
+        max-width: 50%;
+        margin-left: 0px;
+    }
+
+    @media(max-width: 380px)
+    {
+        max-width: 50%;
+        margin-left: -20px;
+    }
+
+    
+}
+
+.integration_section 
+{ 
+    .integration_text
+    {
+        @media(max-width: 991px)
+        {
+            margin-left: 480px;
+            margin-top: -100px;
+        }
+
+        @media(max-width: 768px)
+        {
+            margin-left: 360px;
+            margin-top: -110px;
+            text-align: start;
+        }
+
+        @media(max-width: 430px)
+        {
+            margin-left: 200px;
+            margin-top: -136px;
+            text-align: start;
+        }
+
+        @media(max-width: 380px)
+        {
+            margin-left: 170px;
+        }
+
+        @media(max-width: 350px)
+        {
+            margin-left: 120px;
+        }
+
+        @media(max-width: 320px)
+        {
+            margin-left: 140px;
+        }
+
+        h2 
+        {
+            @media(max-width: 430px)
+            {
+                font-size: 1.9rem;
+                margin-top: 40px;
+            }
+
+            @media(max-width: 450px)
+            {
+                font-size: 1.5rem;
+                margin-top: 20px;
+            }
+        }
+
+        a
+        {
+            color: $primary;
+        }
+
+        a:after
+        {
+            background: linear-gradient(-45deg, $primary 32%, $primary 100%);
+            -webkit-background-clip: text;
+        }
+
+        a::before
+        {
+            background-color: $primary;
+        }
+
+    }
+}
+
+.justify-content-md-center
+{
+    @media(max-width: 768px)
+    {
+        text-align: -webkit-center;
+    }
+}
+
+.float-right
+{
+    margin-top: -5px;
+}
+
+.regis
+{
+    color: $background !important;
+}
+
+.banner_btn
+{
+    display: flex;
+    width: 90%;
+    margin-top: 10px;
+
+    @media(max-width:768px)
+    {
+        width: 80%;
+    }
+
+    @media(max-width:480px)
+    {
+        width: 100%;
+    }
+}
+
+.fas 
+{
+    .fa-cloud-download-alt
+    {
+        width: 60%;
+        margin-right: 15px;
+    }
+}
+
+.box-mail
+{
+    width: 80%;
+
+    @media(max-width: 320px)
+    {
+        font-size: .8rem;
+    }
+}
+
+.counter
+{
+    width:50%;
+    display: contents;
+
+    ul
+    {
+        list-style: none;
+        margin-left: -300px;
+        padding: 0;
+        text-align: center;
+
+        @media(max-width:991px)
+        {
+            margin-left: 0px;
+        }
+
+        @media(max-width:768px)
+        {
+            margin-left: 0px;
+        }
+
+        li
+        {
+            display: inline-block;
+            margin-right: -30px;
+            
+            span.time-container 
+            {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                color: $primary;
+                font-size: .8rem;
+                font-weight: 800;
+                width: 100px;
+            }
+
+            p.numbers 
+            {
+                position: relative;
+                z-index: 4;
+                font-size: 1.8rem;
+            }
+
+            p.text 
+            {
+                margin-top: -30px;
+                color: $primary;
+                font-size: .8rem;
+                font-weight: 800;
+                text-transform: lowercase;
+                width: 100%;
+            }
+
+        }   
+    }
+}
+
+.info-wa
+{
+    color: #000;
+    font-size: 1rem;
+}
+
+.btn-p-send
+{
+    background-color: $primary;
+    border: none;
+    height: 50px;
+    right: 4%;
+    width: 30%;
+    color: #fff;
+    position: absolute;
+    border-radius: 5px;
+
+    @media (max-width:768px)
+    {
+        right: 5%;
+    }
+
+    @media (max-width:480px)
+    {
+        right: 1%;
+    }
+
+    @media (max-width:480px)
+    {
+        font-size: .8rem;
+    }
+
+    @media (max-width:320px)
+    {
+        right: -2%;
+        width: 25%;
+        
+    }    
+}
+
+.text-capitalize
+{
+    text-transform: none !important;
+}
+
+.swal-footer
+{
+    text-align: center;
+}
+
+.swal-button
+{
+    background-color: $primary;
+    color: #fff;
+    font-family: "Poppins";
+}
+
+.swal-overlay 
+{
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.swal-icon--success__line
+{
+    background-color: $background;
+}
+
+.swal-icon--success__ring
+{
+    border: 4px solid rgba(0, 0, 112, 0.4);
+}
+
+.swal-text
+{
+    text-align: center;
+    font-family: "Poppins";
+}
+*/

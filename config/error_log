@@ -1,0 +1,42 @@
+[15-Apr-2021 17:06:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'secuenc1_ewallet'@'hv45svg208.neubox.net' (using password: YES) in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php:323
+Stack trace:
+#0 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/bd_conection.php(11): Medoo\Medoo->__construct(Array)
+#1 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/insert.php(3): include('/home/secuenc1/...')
+#2 {main}
+  thrown in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php on line 323
+[15-Apr-2021 17:06:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'secuenc1_ewallet'@'hv45svg208.neubox.net' (using password: YES) in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php:323
+Stack trace:
+#0 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/bd_conection.php(11): Medoo\Medoo->__construct(Array)
+#1 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/insert.php(3): include('/home/secuenc1/...')
+#2 {main}
+  thrown in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php on line 323
+[15-Apr-2021 17:58:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'secuenc1_ewallet'@'hv45svg208.neubox.net' (using password: YES) in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php:323
+Stack trace:
+#0 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/bd_conection.php(11): Medoo\Medoo->__construct(Array)
+#1 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/insert.php(3): include('/home/secuenc1/...')
+#2 {main}
+  thrown in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php on line 323
+[15-Apr-2021 17:58:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'secuenc1_ewallet'@'hv45svg208.neubox.net' (using password: YES) in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php:323
+Stack trace:
+#0 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/bd_conection.php(11): Medoo\Medoo->__construct(Array)
+#1 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/insert.php(3): include('/home/secuenc1/...')
+#2 {main}
+  thrown in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php on line 323
+[15-Apr-2021 18:00:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'secuenc1_ewallet'@'hv45svg208.neubox.net' (using password: YES) in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php:323
+Stack trace:
+#0 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/bd_conection.php(11): Medoo\Medoo->__construct(Array)
+#1 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/insert.php(3): include('/home/secuenc1/...')
+#2 {main}
+  thrown in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php on line 323
+[15-Apr-2021 18:01:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'secuenc1_ewallet'@'hv45svg208.neubox.net' (using password: YES) in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php:323
+Stack trace:
+#0 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/bd_conection.php(11): Medoo\Medoo->__construct(Array)
+#1 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/insert.php(3): include('/home/secuenc1/...')
+#2 {main}
+  thrown in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php on line 323
+[15-Apr-2021 18:01:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'secuenc1_ewallet'@'hv45svg208.neubox.net' (using password: YES) in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php:323
+Stack trace:
+#0 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/bd_conection.php(11): Medoo\Medoo->__construct(Array)
+#1 /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/config/insert.php(3): include('/home/secuenc1/...')
+#2 {main}
+  thrown in /home/secuenc1/tests.secuenciaestrategica.com/equinox/wallet/vendor/catfan/medoo/src/Medoo.php on line 323
